@@ -1,7 +1,3 @@
-//
-// Created by ludovic on 24/09/2021.
-//
-
 
 #include "data.h"
 #include "events.h"
