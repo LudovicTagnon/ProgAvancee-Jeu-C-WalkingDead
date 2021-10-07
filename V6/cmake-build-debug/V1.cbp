@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="V1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V1">
+				<Option output="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/V1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ludovic/Bureau/L2/PA/PROJET/V5/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 V1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V1/fast">
+				<Option output="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/V1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ludovic/Bureau/L2/PA/PROJET/V5/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 V1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ludovic/Bureau/L2/PA/PROJET/V5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/constants.h">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/data.c">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/data.h">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/fonctions_SDL.c">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/fonctions_SDL.h">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/main.c">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/ludovic/Bureau/L2/PA/PROJET/V5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
