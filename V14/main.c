@@ -16,14 +16,16 @@ int main() {
     Mix_Chunk *_sample[2];
     Mix_Music *musique;
     time_t t;
-
-
-
-
     srand((unsigned) time(&t));
 
 
-    init(&fenetre, &renderer, &textures, &world);
+    //init_menu(&fenetre, &renderer, &textures, &world);
+    init_game(&fenetre, &renderer, &textures, &world);
+
+    refresh_menu(renderer, &world, &textures);
+
+    SDL_Delay(10000);
+
     /*printf("2\n");
     afficherListe(world.Zombie);
     printf("3\n");
@@ -34,7 +36,6 @@ int main() {
     afficherListe(world.Road);
     printf("CST TERRAIN: %i\n", TERRAIN_SIZE);*/
 
-    //Mix_PlayChannel(-1, _sample[1], 99);
     musique = init_music(musique);
     launch_music(musique);
     prepare_audio(_sample);
@@ -43,13 +44,9 @@ int main() {
     // Boucle principale
     while (!is_game_over(&world)) {
 
-        //printf("6\n");
         update_data(&world, &textures, renderer);
-        //printf("7\n");
         handle_events(&event, renderer, &world, &textures, _sample);
-        //printf("8\n");
         refresh_graphics(renderer, &world, &textures);
-        //printf("8\n");
         SDL_Delay(5);
     }
 

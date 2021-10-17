@@ -15,6 +15,13 @@ void init_textures(SDL_Renderer *renderer, resources_t *textures) {
     textures->road = charger_image_transparente("img/road.bmp", renderer);
     textures->bullet = charger_image_transparente("img/bullet.bmp", renderer);
     textures->bullet_flipped = charger_image_transparente("img/bullet_flipped.bmp", renderer);
+    textures->menu = charger_image("img/menu.bmp", renderer);
+}
+
+void refresh_menu(SDL_Renderer *renderer, world_t *world, resources_t *textures){
+    clear_renderer(renderer);
+    apply_sprite(renderer, textures->menu, &world->Menu);
+    update_screen(renderer);
 }
 
 void refresh_graphics(SDL_Renderer *renderer, world_t *world, resources_t *textures) {

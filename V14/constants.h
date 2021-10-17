@@ -60,6 +60,7 @@ struct resources_s{
     SDL_Texture* road;
     SDL_Texture* bullet;
     SDL_Texture* bullet_flipped;
+    SDL_Texture* menu;
 };
 typedef struct resources_s resources_t;
 

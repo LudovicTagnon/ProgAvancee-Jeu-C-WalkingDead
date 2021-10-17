@@ -16,6 +16,8 @@
 
 void init_textures(SDL_Renderer *renderer, resources_t *textures);
 
+void refresh_menu(SDL_Renderer *renderer, world_t *world, resources_t *textures);
+
 void refresh_graphics(SDL_Renderer *renderer, world_t *world,resources_t *textures);
 
 void apply_background(SDL_Renderer *renderer, SDL_Texture *texture, sprite_t *sprite);
