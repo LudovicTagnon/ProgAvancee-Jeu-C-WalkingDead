@@ -43,7 +43,6 @@ typedef element* list_t;
 
 
 struct world_s{
-    sprite_t Menu;
     sprite_t Background;
     sprite_t Rick;
     list_t Gun;
@@ -63,11 +62,7 @@ typedef struct world_s world_t;
 //-----------------------------------------------------------------------------------
 // FONCTIONS //
 
-/*
-void init_menu(SDL_Window **window, SDL_Renderer **renderer, resources_t *textures, world_t *world);
-*/
-
-void init_game(SDL_Window **window, SDL_Renderer ** renderer, resources_t *textures, world_t * world);
+void init(SDL_Window **window, SDL_Renderer ** renderer, resources_t *textures, world_t * world);
 
 void init_sprite_ptr(sprite_t *sprite, int x, int y, int w, int h, int v);
 

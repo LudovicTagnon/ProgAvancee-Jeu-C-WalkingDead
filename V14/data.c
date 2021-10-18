@@ -7,19 +7,12 @@
 #include "graphics.h"
 #include "liste.h"
 
-/*
-void init_menu(SDL_Window **window, SDL_Renderer **renderer, resources_t *textures, world_t *world){
+void init(SDL_Window **window, SDL_Renderer **renderer, resources_t *textures, world_t *world) {
     init_sdl(window, renderer, SCREEN_WIDTH, SCREEN_HEIGHT);
-    init_textures(*renderer, textures);
-    //init_ttf();
-}
-*/
-
-void init_game(SDL_Window **window, SDL_Renderer **renderer, resources_t *textures, world_t *world) {
-    init_sdl(window, renderer, SCREEN_WIDTH, SCREEN_HEIGHT);
-    init_textures(*renderer, textures);
     init_audio();
     init_data(world);
+    //init_ttf();
+    init_textures(*renderer, textures);
 }
 
 void init_sprite_ptr(sprite_t *sprite, int x, int y, int w, int h, int v) {
@@ -61,11 +54,7 @@ void init_data(world_t *world) {
     world->bullet = l_vide();
     world->nb_bullets = 0;
 
-    init_sprite(world->Menu,(-GRASS_WIDTH) / 2,
-                (-GRASS_HEIGHT) / 2,
-                SCREEN_WIDTH,
-                SCREEN_HEIGHT,
-                1);
+
 
     world->nb_vies_restantes = NUMBER_LIFES;
     printf("ERROR1\n");
