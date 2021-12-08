@@ -28,7 +28,6 @@ int main() {
 
     FILE *file_r;
 
-    //afficherListe(world.tree);
 
     // Boucle principale
     while (!is_game_over(&world)) {

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ludovic/Bureau/L2/PA/PROJET/V25/.
+C_INCLUDES = -I/home/ludovic/Bureau/L2/PA/PROJET/V29/.
 
 C_FLAGS = -g -std=gnu11
 

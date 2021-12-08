@@ -242,14 +242,11 @@ void refresh_graphics(SDL_Renderer *renderer, world_t *world, resources_t *textu
 
     char nb_zombies_killed[4];
     sprintf(nb_zombies_killed, "%d", world->nb_zombies_killed);
-
-    //char time[12];
-    //sprintf(time,"%u", SDL_GetTicks());
-    apply_text(renderer, 50, 50, 50, 50, nb_zombies_killed, textures->font, (SDL_Color) {250, 0, 0});
+    SDL_Color color = { 255, 0, 255 };
+    apply_text(renderer, 50, 50, 50, 50, nb_zombies_killed, textures->font, color);
 
     // on met à jour l'écran
     update_screen(renderer);
-
 }
 
 
